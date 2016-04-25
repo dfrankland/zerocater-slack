@@ -1,0 +1,36 @@
+{
+  "name": "zerocater-slack",
+  "version": "1.0.0",
+  "description": "Slack command for ZeroCater.",
+  "scripts": {
+    "start": "node ./start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dfrankland/zerocater-slack.git"
+  },
+  "author": "Dylan Frankland <dylan@frankland.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dfrankland/zerocater-slack/issues"
+  },
+  "homepage": "https://github.com/dfrankland/zerocater-slack#readme",
+  "devDependencies": {
+    "babel-preset-node5": "^11.0.2",
+    "babel-preset-stage-0": "^6.5.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.7.4",
+    "babel-register": "^6.7.2",
+    "koa": "^2.0.0",
+    "koa-bodyparser": "^3.0.0",
+    "koa-json-error": "^3.0.0",
+    "zerocater": "^1.0.3"
+  },
+  "babel": {
+    "presets": [
+      "node5",
+      "stage-0"
+    ]
+  }
+}
